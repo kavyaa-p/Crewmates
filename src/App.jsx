@@ -3,6 +3,8 @@ import Home from './pages/Home';
 import AddCrewmate from './components/AddCrewmate';
 import CrewmateGallery from './components/CrewmateGallery';
 import UpdateCrewmate from './components/UpdateCrewmate';
+import CrewmateDetails from './components/CrewmateDetails';
+
 import './App.css';
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
             <Route path="/create" element={<AddCrewmate />} />
             <Route path="/gallery" element={<CrewmateGallery />} />
             <Route path="/crewmates/:id" element={<UpdateCrewmate />} />
+            <Route path="/crewmates/details/:id" element={<CrewmateDetails />} />
           </Routes>
         </div>
       </div>

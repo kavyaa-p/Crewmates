@@ -31,6 +31,7 @@ const CrewmateGallery = () => {
                             <h3>{crewmate.name}</h3>
                             <p>Speed: {crewmate.speed} mph</p>
                             <p>Color: {crewmate.color}</p>
+                            <Link to={`/crewmates/details/${crewmate.id}`}>View Details</Link>
                             <Link to={`/crewmates/${crewmate.id}`}>Edit Crewmate</Link>
                         </div>
                     ))}
