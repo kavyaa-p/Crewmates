@@ -5,7 +5,7 @@
     justify-content: center;
     text-align: center;
     height: 100vh;
-    margin-left: 200px; /* Offset for sidebar */
+    margin-left: 200px;
 }
 
 .update-crewmate h2 {
@@ -19,7 +19,7 @@
     gap: 20px;
     max-width: 800px;
     width: 100%;
-    margin-bottom: 20px; /* Adds space between form and buttons */
+    margin-bottom: 20px;
 }
 
 .form-item {
@@ -49,7 +49,6 @@
     margin-right: 5px;
 }
 
-/* Style for the update and delete buttons */
 .update-crewmate button {
     padding: 12px 24px;
     font-size: 1.2em;
@@ -59,7 +58,7 @@
     background-color: #565656;
     color: #ffffff;
     transition: background-color 0.3s ease, transform 0.2s ease;
-    margin-top: 10px; /* Space between the buttons */
+    margin-top: 10px;
 }
 
 .update-crewmate button:hover {
@@ -67,7 +66,6 @@
     transform: translateY(-2px);
 }
 
-/* Additional style specifically for delete button */
 .delete-button {
     background-color: #8B0000;
 }

@@ -1,4 +1,3 @@
-/* Center the gallery title */
 .gallery h2 {
     font-size: 2em;
     text-align: center;
@@ -12,7 +11,6 @@
     margin-top: 20px;
 }
 
-/* Grid layout for the crewmate cards */
 .crewmate-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -20,7 +18,6 @@
     justify-items: center;
 }
 
-/* Style each crewmate card */
 .crewmate-card {
     background-color: #333;
     border-radius: 15px;
@@ -32,7 +29,6 @@
     max-width: 250px;
 }
 
-/* Add an image placeholder for each crewmate card */
 .crewmate-card::before {
     content: '';
     display: block;
@@ -43,26 +39,22 @@
     margin-bottom: 10px;
 }
 
-/* Card hover effect */
 .crewmate-card:hover {
     transform: translateY(-5px);
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7);
 }
 
-/* Crewmate name styling */
 .crewmate-card h3 {
     color: #ffffff;
     font-size: 1.3em;
     margin: 10px 0;
 }
 
-/* Additional crewmate details */
 .crewmate-card p {
     color: #cccccc;
     margin: 5px 0;
 }
 
-/* Edit button styling */
 .crewmate-card a {
     display: inline-block;
     margin-top: 10px;

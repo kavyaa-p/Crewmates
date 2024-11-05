@@ -1,31 +1,27 @@
-/* Center the content both vertically and horizontally */
 .home {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     text-align: center;
     color: #ffffff;
-    margin-left: 200px; /* Offset for the sidebar */
-    padding: 0 20px; /* Optional padding for smaller screens */
+    margin-left: 200px;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
-/* Style for the main heading */
 .home h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-/* Style for the paragraph text */
 .home p {
     font-size: 1.2em;
     margin-bottom: 30px;
     max-width: 600px;
 }
 
-/* Center and size the image */
 .home img {
     max-width: 300px;
     height: auto;

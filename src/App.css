@@ -1,4 +1,3 @@
-/* General Styles */
 body, html {
   margin: 0;
   padding: 0;
@@ -17,7 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Sidebar Navigation */
 nav {
   width: 200px;
   height: 100vh;
@@ -39,14 +37,12 @@ nav a {
   text-align: center;
 }
 
-/* Main App Container */
 .app {
   display: flex;
   width: 100vw;
   height: 100vh;
 }
 
-/* Content Section */
 .content {
   flex-grow: 1;
   display: flex;
